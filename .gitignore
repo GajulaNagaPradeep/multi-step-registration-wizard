@@ -1,0 +1,16 @@
+
+# tests
+/coverage
+
+# misc
+/build
+.DS_Store
+.env.local
+.env.test.local
+.env.production.local
+.env.development.local
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js

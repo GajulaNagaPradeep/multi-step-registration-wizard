@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Progress should be rendered correctly 1`] = `
+<Form
+  className="input-form"
+  inline={false}
+>
+  <ForwardRef(MotionComponent)
+    animate={
+      Object {
+        "x": 0,
+      }
+    }
+    className="col-lg-6 offset-lg-3"
+    initial={
+      Object {
+        "x": "-100vw",
+      }
+    }
+    transition={
+      Object {
+        "stiffness": 150,
+      }
+    }
+  >
+    <FormGroup
+      controlId="address"
+    >
+      <FormLabel
+        column={false}
+        srOnly={false}
+      >
+        Address
+      </FormLabel>
+      <PlacesAutocomplete
+        debounce={200}
+        googleCallbackName="myCallbackFunc"
+        highlightFirstSuggestion={false}
+        onChange={[Function]}
+        onError={[Function]}
+        onSelect={[Function]}
+        searchOptions={Object {}}
+        shouldFetchSuggestions={true}
+        value=""
+      >
+        <Component />
+      </PlacesAutocomplete>
+    </FormGroup>
+  </ForwardRef(MotionComponent)>
+  <Button
+    active={false}
+    disabled={false}
+    onClick={[Function]}
+    type="submit"
+    variant="primary"
+  >
+    Previous
+  </Button>
+  <Button
+    active={false}
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "float": "right",
+      }
+    }
+    type="submit"
+    variant="primary"
+  >
+    Register
+  </Button>
+</Form>
+`;

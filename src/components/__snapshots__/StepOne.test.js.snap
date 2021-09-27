@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Progress should be rendered correctly 1`] = `
+<Form
+  className="input-form"
+  inline={false}
+>
+  <ForwardRef(MotionComponent)
+    animate={
+      Object {
+        "x": 0,
+      }
+    }
+    className="col-lg-6 offset-lg-3"
+    initial={
+      Object {
+        "x": "-100vw",
+      }
+    }
+    transition={
+      Object {
+        "stiffness": 150,
+      }
+    }
+  >
+    <FormGroup
+      controlId="first_name"
+    >
+      <FormLabel
+        column={false}
+        srOnly={false}
+      >
+        First Name
+      </FormLabel>
+      <FormControl
+        autoComplete="off"
+        className=""
+        name="first_name"
+        placeholder="Enter your first name"
+        type="text"
+      />
+    </FormGroup>
+    <FormGroup
+      controlId="last_name"
+    >
+      <FormLabel
+        column={false}
+        srOnly={false}
+      >
+        Last Name
+      </FormLabel>
+      <FormControl
+        autoComplete="off"
+        className=""
+        name="last_name"
+        placeholder="Enter your last name"
+        type="text"
+      />
+    </FormGroup>
+  </ForwardRef(MotionComponent)>
+  <Button
+    active={false}
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "float": "right",
+      }
+    }
+    type="submit"
+    variant="primary"
+  >
+    Next
+  </Button>
+</Form>
+`;
